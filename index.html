@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:title" content="音速小子在翡翠山區域" />
+    <meta property="og:description" content="翡翠山區域被茂密植被覆蓋，是無數叢林動物的家園，可供玩家熟悉音速小子的基本操作。" />
+    <meta property="og:locale" content="zh_TW" />
+    <meta property="og:type" content="website" />
+    <link rel="stylesheet" href="css/emerald-hill-zone.css">
+    <title>音速小子在翡翠山區域</title>
+</head>
+<body>
+    <button id="info-toggle" class="info-button">展示資訊面板</button>
+    <div id="container">
+        <div class="background-wrapper">
+            <div class="sky-wrapper">
+                <div class="sky"></div>
+                <div class="ocean-sparkle"></div>
+            </div>
+            <div class="mountains"></div>
+            <div class="mountains-lower"></div>
+            <div class="tile-1"></div>
+            <div class="tile-2"></div>
+            <div class="tile-3"></div>
+            <div class="tile-4"></div>
+            <div class="tile-5"></div>
+        </div>
+        <div class="sonic-wrapper">
+            <div class="sonic"></div>
+        </div>
+        <div class="platform-wrapper">
+            <div class="platform"></div>
+            <div class="earth-tile"></div>
+        </div>
+    </div>
+    <div id="center"></div>
+    <div class="panel-wrapper">
+        <div id="info-panel" class="panel"></div>
+        <div id="debug" class="panel">
+            <p>輸入欄位：<span id="input-type"></span></p>
+            <p>中心偏移量：<span id="position"></span></p>
+            <p>速度等級：<span id="speed"></span></p>
+            <p>按住 A 並按 Enter 鍵進行除錯檢視</p>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" defer></script>
+    <script src="js/emerald-hill-zone.js" defer></script>
+</body>
+</html>
