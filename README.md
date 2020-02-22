@@ -11,5 +11,5 @@ $ git clone
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/d3ziqva.gif)
+![](https://i.imgur.com/kFokNcX.gif)
 > 使用滑鼠控制進行遊戲移動，點一下進行跳躍
